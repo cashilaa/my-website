@@ -3,38 +3,65 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Animated Menu</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="author" content="Dave Gray">
+    <meta name="description" content="About The Little Taco Shop">
+    <title>About LTS</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="js/main.js">
 </head>
 
-
 <body>
-    <header>
-        <section class="header-title-line">
-            <h1>HEY! WELCOME TO MY WEBPAGE</h1>
-        </section>
-
-        <nav>
-            <ul>
-                <li><a href="project.html">Projects</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="about.html">about</a></li>
+    <header class="header">
+        <h1 class="header__h1">Sheila WAFULA</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                <li>
+                    <a href="/project.html">Project</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
             </ul>
         </nav>
     </header>
-    <img src="/MY WEBSITE/img/20230629 Sheila wafula IMG_0778.jpg" alt="my image" width="500px" height="500px">
-    <main>
-        <p>Hey! ❤️</p>
+
+    <section class="hero">
+        <figure>
+            <img src="img/image.jpg" alt="Tacos Delicioso" title="sheila Wafula" width="1000"
+                height="667">
+            <figcaption class="offscreen">
+                SHEILA WAFULA
+            </figcaption>
+        </figure>
+    </section>
+
+    <main class="main">
+        <article id="about" class="main__article about">
+            <h2>SHEILA WAFULA</h2>
+            <p>
+               I am a webdeveloper,a dancer and a like video games.
+            </p>
+            <h3>MY Skills </h3>
+            <p>
+                <ul>
+                    <li >Programming Languages</li>
+                    <li>Web Development Frameworks</li>
+                    <li>Responsive Desighn</li>
+                </ul>
+            </p>
+        </article>
     </main>
-    <nav>
-        <ul>
-           <li><img src="favicon/icons8-instagram-16.png"></li>
-           <li><img src="favicon/icons8-signal-app-16.png"></li>
-           <li><img src="favicon/icons8-tiktok-16.png"></li>
-        </ul>
-    </nav>
+
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy; <time id="year"></time></span>
+            <span class="nowrap">Sheila Wafula</span>
+        </p>
+    </footer>
 </body>
 
 </html>
