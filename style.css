@@ -17,7 +17,7 @@ html {
 }
 
 body {
-    background-color: maroon;
+    background-color: maroon; /* Set background color to maroon */
     background-image: linear-gradient(to right, midnightblue, rebeccapurple);
     min-height: 100vh;
     display: flex;
@@ -54,7 +54,6 @@ header {
     display: none;
     background-color: transparent;
     outline: none;
-    /* border: 1px solid red; */
     border: none;
     position: absolute;
     top: 0.25rem;
@@ -217,4 +216,10 @@ main {
     header:focus-within nav {
         animation: none;
     }
+}
+.index.body.nav{
+    padding-left: 0%;
+    border-color: #000;
+    background-color: aquamarine;
+
 }
